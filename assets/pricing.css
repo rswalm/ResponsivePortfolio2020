@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 576px) { 
+  .px-md-4{
+    min-width: 200px;
+  }
+
+  .container{
+    min-width: 500px;
+    max-width: 600px;
+    background-color: #EEEEEE;
+  }
+ }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .px-md-4{
+    min-width: 300px;
+  }
+
+  .container{
+    min-width: 700px;
+    background-color: #EEEEEE;
+  }
+}
+
+@media (min-width: 992px) { 
+
+  .px-md-4{
+    min-width: 500px;
+  }
+
+  .container{
+    min-width: 800px;
+    background-color: #EEEEEE;
+  }
+ }
+
+ @media (min-width: 1200px) { 
+   
+  .px-md-4{
+    min-width: 600px;
+  }
+  }
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}

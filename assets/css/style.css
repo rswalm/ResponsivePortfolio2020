@@ -1,0 +1,102 @@
+.title-box{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.1%;
+    padding-bottom: 2.1%;
+    background-color:#139c85;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.portfolio-heading{
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%;
+   padding-bottom: 2%;
+}
+.portfolio-heading h4{
+    font-weight: bold;
+    text-align: left;
+    color: #139c85;
+}
+
+.card{
+    margin: 1rem auto;
+    position:relative;
+}
+.card-body{
+    z-index: 2;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.container-bg{
+    padding: 5px;
+    background-color: #EEEEEE;
+}
+.main-content{
+    max-width: 70%;
+    margin: 3%;
+}
+.image-text{
+    background-color: #139c85;;
+    color: #FFFFFF;
+    margin: 5px;
+}
+.image-with-text{
+    margin-right: 15px;
+    float: left;
+}
+/*--------contact form css---------------*/
+.content{
+    background-color: #FFFFFF;
+    margin: 2%;
+    padding: 3%;
+}
+.contact-table{
+    width: 100%;
+}
+
+.contact-form-btn{
+    background-color:rgb(44, 206, 179);
+}
+
+.contact-form-btn {
+    color: #fff;
+    background-color: rgb(44, 206, 179);
+    border-color: rgb(135, 204, 192);
+  }
+  
+  .contact-form-btn:hover {
+    color: #fff;
+    background-color: rgb(37, 141, 124);
+    border-color:rgb(135, 204, 192);
+  }
+  
+  .contact-form-btn:focus, .btn-info.focus {
+    color: #fff;
+    background-color: rgb(92, 177, 163);;
+    border-color: rgb(135, 204, 192);
+    box-shadow: 0 0 0 0.2rem rgba(46, 228, 203, 0.781);
+  }
+
+  .contact-textarea{
+      height: 150px!important;
+  }
+/*----------end contact css---------------*/
+
+/*------about page css--------------*/
+.about-content{
+    background: #FFFFFF;
+    margin: 2%;
+    padding: 2%;
+}
+/*------about page css end-----------*/
+.footer {
+    background-color: #f5f5f5;
+    border-top: #4e4e4e;
+}
+.footer-bg{
+    background-color: #494b4b;
+   
+}
